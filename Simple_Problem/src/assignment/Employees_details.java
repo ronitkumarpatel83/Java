@@ -6,9 +6,9 @@ package assignment;
 	//Display the values using method named display.
 
 public class Employees_details {
-    private String name;
-    private int empNo;
-    private double salary;
+	public String name;
+	public int empNo;
+	public double salary;
     
     public Employees_details(String name, int empNo, double salary) {
         this.name = name;

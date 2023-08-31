@@ -13,7 +13,7 @@ public class PrimeNumber {
 		int n = 0;
 		for (int i = 2;i<=num;i++) {
 			if (num % i == 0) {
-//				System.out.println(i);
+				System.out.println(n);
 				n++;
 			}
 		}

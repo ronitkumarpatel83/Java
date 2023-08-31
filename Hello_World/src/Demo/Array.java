@@ -1,5 +1,8 @@
 package Demo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Array {
 
 	public static void main(String[] args) {
@@ -30,18 +33,32 @@ public class Array {
 //			}
 //		}
 		
-		System.out.println("Foreach loop for array\n");
+//		System.out.println("Foreach loop for array\n");
+//		
+//		char[] vowel = {'a','e','i','o','u'};
+//		System.out.println("Output of for loop ============== ");
+//		for (int i = 0;i<vowel.length;i++) {
+//			System.out.println("For loop = "+vowel[i]);
+//		}
+//		
+//		System.out.println("Output of for each loop ============== ");
+//		for (char c : vowel) {
+//			System.out.println("For each = "+c);
+//		}
+		ArrayList<String> arr = new ArrayList<>();
+		arr.add("Python");
+		arr.add("Java");
+		arr.add("C#");
+		System.out.println(arr);
 		
-		char[] vowel = {'a','e','i','o','u'};
-		System.out.println("Output of for loop ============== ");
-		for (int i = 0;i<vowel.length;i++) {
-			System.out.println("For loop = "+vowel[i]);
-		}
-		
-		System.out.println("Output of for each loop ============== ");
-		for (char c : vowel) {
-			System.out.println("For each = "+c);
-		}
+		List<String> list = new ArrayList<>();
+		list.add("Kaju");
+		list.add("Katli");
+		list.remove(0);
+		list.contains("Kaju");
+//		list.set(0, "Jadu");
+		list.add(0, "BADAM");
+		System.out.println(list);
 				
 		
 		
